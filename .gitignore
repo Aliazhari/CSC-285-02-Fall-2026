@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+
+
+# mac
+.DS_Store
+
+# Other
+.vscode
+*.tsv
+*.pt
+gpt*.txt
+*.env
+local/
+local_*
+build/
+*.egg-info/
+.idea
+.venv
+*.class
+
+# Project-specific
+secrets.toml
+*.log
+*/assertion.log
+*results/
+.venv/
+
+venv/
