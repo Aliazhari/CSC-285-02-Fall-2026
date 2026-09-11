@@ -28,6 +28,10 @@ public String toString() {
     return name + "  " + age;
 
 }
+
+ public void dancing() {
+        System.out.println("Person dances");
+    }
   
 
 
@@ -35,6 +39,7 @@ public static void main(String[] blahblah) {
 
     Student p1 = new Student("Bob", 20, 1234, 3.5);
     System.out.println(p1);
+    Person p2 = new Student("Jim", 19, 2345, 4.0);
 
 }
 }

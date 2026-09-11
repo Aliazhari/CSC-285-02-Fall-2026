@@ -20,6 +20,9 @@ public class Student extends Person {
     public void setGpa(double gpa) {
         this.gpa = gpa;
     }
+    public void dancing() {
+        System.out.println("Studfent dances");
+    }
     @Override
     public String toString() {
         return  super.toString() + ", id=" + id + ", gpa=" + gpa + "]";
